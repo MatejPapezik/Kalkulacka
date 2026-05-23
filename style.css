@@ -30,7 +30,6 @@ button{
 
 #calculator_display{
     background-color: white;
-    font-size: 8cap;
     padding: 5px;
     width: 495px;
     height: 120px;
@@ -38,6 +37,10 @@ button{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    font-size: 100px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .buttons_grid{
@@ -48,5 +51,9 @@ button{
 }
 
 .button_clear{
-    grid-column: span 4;
+    grid-column: span 2;
+}
+
+.button_back{
+    grid-column: span 2;
 }

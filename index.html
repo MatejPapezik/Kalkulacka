@@ -9,30 +9,28 @@
     <div class="calculator_body">
         <p id="calculator_display"></p>
         <div class="buttons_grid">
-            <button class="button_clear">C</button>
+            <button class="button_clear" onclick="Button_clear()">C</button>
+            <button class="button_back" onclick="Button_back()">⇐</button>
             
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
+            <button onclick="Button_7()">7</button>
+            <button onclick="Button_8()">8</button>
+            <button onclick="Button_9()">9</button>
+            <button onclick="Button_multiply()">*</button>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button onclick="Button_4()">4</button>
+            <button onclick="Button_5()">5</button>
+            <button onclick="Button_6()">6</button>
+            <button onclick="Button_minus()">-</button>
 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <button onclick="Button_1()">1</button>
+            <button onclick="Button_2()">2</button>
+            <button onclick="Button_3()">3</button>
+            <button onclick="Button_plus()">+</button>
 
-            <button>,</button>
-            <button>0</button>
-            <button>=</button>
-            <button>/</button>
-            
-            
-            
+            <button onclick="Button_comma()">.</button>
+            <button onclick="Button_0()">0</button>
+            <button onclick="Button_equals()">=</button>
+            <button onclick="Button_devide()">/</button>            
         </div>
     </div>
     <script src="script.js"></script>
